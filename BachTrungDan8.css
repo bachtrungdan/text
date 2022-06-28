@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container1 {
+    display: flex;
+    height: 800px;
+    overflow: scroll;
+    color: black;
+    background-color: white;
+    overflow-y: scroll;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    position: fixed;
+
+}
+.container1-1{
+width: 250px;
+position: fixed;
+overflow:auto;
+height:100%;
+z-index: 2000 !important;
+}
+.container1-2{
+width: 80%;
+margin-left: 20%;
+}
+.container1 p {
+    box-sizing: inherit;
+    margin-left: 10px;
+}
+
+.container01 {
+    padding-right: 50px;
+    width: 80%;
+    position: relative;
+    left: 20%;
+}
+
+.logo {
+    position: relative;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    top: 15px;
+}
+.click{
+    background-color:red;
+    border: none;
+    border-radius: 0px;
+}
+
+.right1 {
+    padding: 64px 0px;
+}
+
+.right2 {
+    padding: 12px 24px;
+}
+
+.right1 p {
+    padding: 10px 0px;
+}
+
+p:hover {
+    background-color: #ccc;
+}
+
+.line1 {
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    background-color: white;
+}
+
+.line1 p i {
+    float: right;
+}
+
+.img0 {
+    width: 100%;
+    margin: 9px;
+}
+
+.line2 {
+    width: 100%;
+    position: relative;
+}
+
+.shopnow {
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: #996868;
+    color: white;
+    border: none;
+}
+
+.shopnow:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.value {
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    color: white;
+}
+
+.line3 {
+    display: flex;
+    width: 100%;
+
+}
+
+.line3-lever {
+    padding: 10px;
+    position: relative;
+}
+
+.line3-lever img {
+    width: 100%;
+
+}
+
+.subcriber {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+
+}
+
+.subcriber h1 {
+    margin: 10px;
+    padding-top: 50px;
+}
+
+.subcriber p {
+    margin: 10px;
+}
+
+.subcriber input {
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+}
+
+.subcriber div {
+    padding: 10px;
+}
+
+.subcriber button {
+    background-color: red;
+    padding: 10px 16px;
+    border: none;
+    margin: 20px 10px;
+
+}
+
+
+.line3-button {
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+.container3 {
+    display: flex;
+    background-color: #f1f1f1 !important;
+    color: black;
+     
+}
+
+.contact {
+    width: 33%;
+    padding: 30px;
+}
+
+.about {
+    width: 20%;
+    padding: 20px;
+}
+
+.about p u {
+    padding: 10px 0px;
+}
+
+.store {
+    width: 20%;
+    padding: 20px;
+}
+
+.contact input {
+    width: 250px;
+    height: 30px;
+    margin: 8px 0px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+
+}
+
+.send {
+    width: 250px;
+    height: 30px;
+    margin: 8px 0px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.w3css {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+}
+.card{
+    color: black !important;
+    border:0px !important;
+    }
+.jeans{
+    background-color: white !important;
+    color: black!important;
+    border: none !important;
+}
+.btn{
+    background-color: white !important;
+    padding: none !important;
+    border: none !important;
+    color: black !important;
+}
+.modal-body input{
+    width: 750px;
+    height: 40px;
+}
+.modal-footer{
+    border: 0px !important;
+}
+.modal-footer button{
+    background-color: red !important;
+}
+.modal-header{
+     border: 0px !important;
+}
+.modal-title{
+    letter-spacing: 4px;
+    text-align: center !important;
+}
+
+@media screen and (max-width:600px) {
+    .container1-1 {
+        display: none;
+    }
+    .container1-2{
+        max-width: 100%;
+    }
+}
